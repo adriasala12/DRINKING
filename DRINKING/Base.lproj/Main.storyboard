@@ -26,7 +26,7 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="OtZ-ij-o7y">
                                         <rect key="frame" x="0.0" y="0.0" width="331.33333333333331" height="402.33333333333331"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El mejor juego para beber" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIB-WX-uPn">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El mejor juego para beber" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="GIB-WX-uPn">
                                         <rect key="frame" x="0.0" y="412.33333333333331" width="331.33333333333331" height="23.333333333333314"/>
                                         <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
                                         <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -63,9 +63,6 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tc2-5I-qVs">
                                                 <rect key="frame" x="0.0" y="136.33333333333331" width="331.33333333333331" height="48"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="tc2-5I-qVs" secondAttribute="height" multiplier="62:9" id="F4O-GO-0LB"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
                                                 <state key="normal" title="PREFIERO" backgroundImage="BUTTON BOX">
                                                     <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -76,9 +73,6 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBN-V4-gAE">
                                                 <rect key="frame" x="0.0" y="204.33333333333331" width="331.33333333333331" height="48"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="BBN-V4-gAE" secondAttribute="height" multiplier="62:9" id="rAG-g3-NIR"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
                                                 <state key="normal" title="QUIÉN ES MÁS PROBABLE" backgroundImage="BUTTON BOX">
                                                     <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -89,15 +83,11 @@
                                             </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="BBN-V4-gAE" firstAttribute="width" secondItem="BBN-V4-gAE" secondAttribute="height" multiplier="62:9" id="6yh-ed-d9P"/>
-                                            <constraint firstItem="BBN-V4-gAE" firstAttribute="width" secondItem="BBN-V4-gAE" secondAttribute="height" multiplier="62:9" id="9GC-3c-uJj"/>
                                             <constraint firstAttribute="trailing" secondItem="D94-UL-5eh" secondAttribute="trailing" id="Dcf-NK-DoS"/>
                                             <constraint firstItem="tc2-5I-qVs" firstAttribute="width" secondItem="tc2-5I-qVs" secondAttribute="height" multiplier="62:9" id="GQE-dM-cCI"/>
                                             <constraint firstAttribute="trailing" secondItem="D94-UL-5eh" secondAttribute="trailing" id="O8M-p0-caT"/>
                                             <constraint firstItem="D94-UL-5eh" firstAttribute="leading" secondItem="Ztu-gp-xiv" secondAttribute="leading" id="OlN-Lt-H5g"/>
-                                            <constraint firstItem="tc2-5I-qVs" firstAttribute="width" secondItem="tc2-5I-qVs" secondAttribute="height" multiplier="62:9" id="XgP-nV-IaN"/>
                                             <constraint firstItem="BBN-V4-gAE" firstAttribute="width" secondItem="BBN-V4-gAE" secondAttribute="height" multiplier="62:9" id="Ybi-Ds-EQe"/>
-                                            <constraint firstItem="xc9-ys-E6Q" firstAttribute="width" secondItem="xc9-ys-E6Q" secondAttribute="height" multiplier="62:9" id="fcu-la-SAv"/>
                                             <constraint firstItem="D94-UL-5eh" firstAttribute="leading" secondItem="Ztu-gp-xiv" secondAttribute="leading" id="pzD-uA-GM3"/>
                                         </constraints>
                                     </stackView>
