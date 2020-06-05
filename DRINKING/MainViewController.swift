@@ -14,7 +14,22 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func settingsTapped(_ sender: Any) {
+        
+    }
+    
+    @IBAction func yoNuncaTapped(_ sender: Any) {
+    }
+    
+    @IBAction func back2backTapped(_ sender: Any) {
+    }
+    
+    @IBAction func prefieroTapped(_ sender: Any) {
+    }
+    
+    @IBAction func quienEsMasProbableTapped(_ sender: Any) {
+    }
+    
 }
 

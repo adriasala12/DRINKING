@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -21,24 +21,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="1wG-tS-yjp">
-                                <rect key="frame" x="41.5" y="64" width="331" height="698"/>
+                                <rect key="frame" x="41.333333333333343" y="64" width="331.33333333333326" height="698"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="OtZ-ij-o7y">
-                                        <rect key="frame" x="0.0" y="0.0" width="331" height="376.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="331.33333333333331" height="389"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El mejor juego para beber" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="GIB-WX-uPn">
-                                        <rect key="frame" x="0.0" y="396.5" width="331" height="29"/>
+                                        <rect key="frame" x="0.0" y="409" width="331.33333333333331" height="29"/>
                                         <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="21"/>
                                         <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ztu-gp-xiv">
-                                        <rect key="frame" x="0.0" y="445.5" width="331" height="252.5"/>
+                                        <rect key="frame" x="0.0" y="458" width="331.33333333333331" height="240"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D94-UL-5eh">
-                                                <rect key="frame" x="0.0" y="0.0" width="331" height="48.5"/>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rje-jS-IxB">
+                                                <rect key="frame" x="10.666666666666657" y="0.0" width="310" height="45"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="D94-UL-5eh" secondAttribute="height" multiplier="62:9" id="icT-ec-usd"/>
+                                                    <constraint firstAttribute="width" secondItem="Rje-jS-IxB" secondAttribute="height" multiplier="62:9" id="KT9-eb-P3h"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
                                                 <state key="normal" title="YO NUNCA" backgroundImage="BUTTON BOX">
@@ -47,9 +47,12 @@
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                     </preferredSymbolConfiguration>
                                                 </state>
+                                                <connections>
+                                                    <action selector="yoNuncaTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rf0-Qi-KkO"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xc9-ys-E6Q">
-                                                <rect key="frame" x="0.0" y="68.5" width="331" height="48"/>
+                                                <rect key="frame" x="10.666666666666657" y="65" width="310" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="xc9-ys-E6Q" secondAttribute="height" multiplier="62:9" id="5hH-Sw-dBf"/>
                                                 </constraints>
@@ -60,9 +63,12 @@
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                     </preferredSymbolConfiguration>
                                                 </state>
+                                                <connections>
+                                                    <action selector="back2backTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XF4-Mv-7UH"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tc2-5I-qVs">
-                                                <rect key="frame" x="0.0" y="136.5" width="331" height="48"/>
+                                                <rect key="frame" x="10.666666666666657" y="130" width="310" height="45"/>
                                                 <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
                                                 <state key="normal" title="PREFIERO" backgroundImage="BUTTON BOX">
                                                     <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -70,9 +76,12 @@
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                     </preferredSymbolConfiguration>
                                                 </state>
+                                                <connections>
+                                                    <action selector="prefieroTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uao-n1-wnp"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBN-V4-gAE">
-                                                <rect key="frame" x="0.0" y="204.5" width="331" height="48"/>
+                                                <rect key="frame" x="10.666666666666657" y="195" width="310" height="45"/>
                                                 <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
                                                 <state key="normal" title="QUIÉN ES + PROBABLE" backgroundImage="BUTTON BOX">
                                                     <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -80,15 +89,15 @@
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                     </preferredSymbolConfiguration>
                                                 </state>
+                                                <connections>
+                                                    <action selector="quienEsMasProbableTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a9m-7a-NN7"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="D94-UL-5eh" secondAttribute="trailing" id="Dcf-NK-DoS"/>
                                             <constraint firstItem="tc2-5I-qVs" firstAttribute="width" secondItem="tc2-5I-qVs" secondAttribute="height" multiplier="62:9" id="GQE-dM-cCI"/>
-                                            <constraint firstAttribute="trailing" secondItem="D94-UL-5eh" secondAttribute="trailing" id="O8M-p0-caT"/>
-                                            <constraint firstItem="D94-UL-5eh" firstAttribute="leading" secondItem="Ztu-gp-xiv" secondAttribute="leading" id="OlN-Lt-H5g"/>
                                             <constraint firstItem="BBN-V4-gAE" firstAttribute="width" secondItem="BBN-V4-gAE" secondAttribute="height" multiplier="62:9" id="Ybi-Ds-EQe"/>
-                                            <constraint firstItem="D94-UL-5eh" firstAttribute="leading" secondItem="Ztu-gp-xiv" secondAttribute="leading" id="pzD-uA-GM3"/>
+                                            <constraint firstItem="Rje-jS-IxB" firstAttribute="width" secondItem="Rje-jS-IxB" secondAttribute="height" multiplier="62:9" id="gXo-Dw-Kwb"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
@@ -103,7 +112,10 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TIa-V6-V94">
                                 <rect key="frame" x="30" y="64" width="36" height="35"/>
-                                <state key="normal" image="MENU BUTTON"/>
+                                <state key="normal" image="SETTINGS BUTTON"/>
+                                <connections>
+                                    <action selector="settingsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nkk-bD-fKg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.16078431372549018" green="0.16078431372549018" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
@@ -125,10 +137,100 @@
             </objects>
             <point key="canvasLocation" x="136.23188405797103" y="137.27678571428569"/>
         </scene>
+        <!--Instructions View Controller-->
+        <scene sceneID="50o-Vb-HQr">
+            <objects>
+                <viewController id="EM8-5X-21X" customClass="InstructionsViewController" customModule="DRINKING" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ph3-bJ-ISS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="VMn-4A-twr">
+                                <rect key="frame" x="20" y="64" width="374" height="698"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-wg-Foq">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="298.66666666666669"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="¿CÓMO JUGAR?" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="4xa-Xe-QeQ">
+                                        <rect key="frame" x="0.0" y="318.66666666666669" width="374" height="36"/>
+                                        <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="30"/>
+                                        <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="TXT BOX" translatesAutoresizingMaskIntoConstraints="NO" id="2SS-cP-Ewa">
+                                        <rect key="frame" x="0.0" y="374.66666666666669" width="374" height="249.00000000000006"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D94-UL-5eh">
+                                        <rect key="frame" x="0.0" y="643.66666666666663" width="374" height="54.333333333333371"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="D94-UL-5eh" secondAttribute="height" multiplier="62:9" id="icT-ec-usd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
+                                        <state key="normal" title="YO NUNCA" backgroundImage="BUTTON BOX">
+                                            <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            </preferredSymbolConfiguration>
+                                        </state>
+                                        <connections>
+                                            <action selector="yoNuncaTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8IU-Yg-YHI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="2SS-cP-Ewa" firstAttribute="height" secondItem="D94-UL-5eh" secondAttribute="height" multiplier="4.58716" id="Umf-Y8-cF7"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MNv-NJ-A1n">
+                                <rect key="frame" x="57" y="792" width="300" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="DvS-sp-oSr"/>
+                                    <constraint firstAttribute="height" constant="50" id="fnc-ND-MNC"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXj-vQ-8VY">
+                                <rect key="frame" x="30" y="64" width="21.333333333333329" height="37.333333333333343"/>
+                                <state key="normal" image="BACK BUTTON"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bTx-YH-ecd">
+                                <rect key="frame" x="48" y="450.99999999999994" width="318" height="224.33333333333331"/>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16078431369999999" green="0.16078431369999999" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="RxZ-wg-Foq" firstAttribute="height" relation="greaterThanOrEqual" secondItem="Ph3-bJ-ISS" secondAttribute="height" multiplier="0.2" id="2L1-2f-bJL"/>
+                            <constraint firstItem="EXj-vQ-8VY" firstAttribute="leading" secondItem="v0Q-aO-NHn" secondAttribute="leading" constant="30" id="BRW-z0-JXG"/>
+                            <constraint firstItem="v0Q-aO-NHn" firstAttribute="trailing" secondItem="VMn-4A-twr" secondAttribute="trailing" constant="20" id="CkE-cn-s6e"/>
+                            <constraint firstItem="bTx-YH-ecd" firstAttribute="width" secondItem="2SS-cP-Ewa" secondAttribute="width" multiplier="0.85" id="FZf-CM-TOT"/>
+                            <constraint firstItem="VMn-4A-twr" firstAttribute="top" secondItem="v0Q-aO-NHn" secondAttribute="top" constant="20" id="I8O-YW-Lb5"/>
+                            <constraint firstItem="bTx-YH-ecd" firstAttribute="height" secondItem="2SS-cP-Ewa" secondAttribute="height" multiplier="0.9" id="N6P-8F-uVB"/>
+                            <constraint firstItem="VMn-4A-twr" firstAttribute="leading" secondItem="v0Q-aO-NHn" secondAttribute="leading" constant="20" id="PTL-La-qEb"/>
+                            <constraint firstItem="MNv-NJ-A1n" firstAttribute="centerX" secondItem="Ph3-bJ-ISS" secondAttribute="centerX" id="Tey-f8-wI4"/>
+                            <constraint firstItem="v0Q-aO-NHn" firstAttribute="bottom" secondItem="MNv-NJ-A1n" secondAttribute="bottom" constant="20" id="TvJ-e2-i7l"/>
+                            <constraint firstItem="MNv-NJ-A1n" firstAttribute="top" secondItem="VMn-4A-twr" secondAttribute="bottom" constant="30" id="UJk-0V-SVL"/>
+                            <constraint firstItem="VMn-4A-twr" firstAttribute="centerX" secondItem="Ph3-bJ-ISS" secondAttribute="centerX" id="cbO-Qw-Enn"/>
+                            <constraint firstItem="bTx-YH-ecd" firstAttribute="centerX" secondItem="2SS-cP-Ewa" secondAttribute="centerX" id="ojl-OD-QD7"/>
+                            <constraint firstItem="EXj-vQ-8VY" firstAttribute="top" secondItem="v0Q-aO-NHn" secondAttribute="top" constant="20" id="uNi-YF-xwz"/>
+                            <constraint firstItem="bTx-YH-ecd" firstAttribute="centerY" secondItem="2SS-cP-Ewa" secondAttribute="centerY" id="x0U-yj-1rH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="v0Q-aO-NHn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Drg-f5-fGt" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1003" y="137"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="BACK BUTTON" width="21.333333969116211" height="37.333332061767578"/>
         <image name="BUTTON BOX" width="300" height="45"/>
         <image name="LOGO TXT NO BG" width="310" height="425"/>
-        <image name="MENU BUTTON" width="36" height="35"/>
+        <image name="SETTINGS BUTTON" width="36" height="35"/>
+        <image name="TXT BOX" width="300" height="250"/>
     </resources>
 </document>
