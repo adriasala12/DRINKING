@@ -62,15 +62,39 @@
 			children = (
 				23C0F173248A4AE600F15B72 /* AppDelegate.swift */,
 				23C0F175248A4AE600F15B72 /* SceneDelegate.swift */,
-				23C0F177248A4AE600F15B72 /* MainViewController.swift */,
-				23C0F18A248AC32400F15B72 /* InstructionsViewController.swift */,
-				23C0F179248A4AE600F15B72 /* Main.storyboard */,
+				23C0F18E248AC79100F15B72 /* Model */,
+				23C0F18D248AC78600F15B72 /* Views */,
+				23C0F18C248AC77700F15B72 /* Controllers */,
 				23C0F17C248A4AE700F15B72 /* Assets.xcassets */,
-				23C0F17E248A4AE700F15B72 /* LaunchScreen.storyboard */,
 				23C0F181248A4AE700F15B72 /* Info.plist */,
-				23C0F188248A9D6D00F15B72 /* Phosphate.ttc */,
 			);
 			path = DRINKING;
+			sourceTree = "<group>";
+		};
+		23C0F18C248AC77700F15B72 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				23C0F177248A4AE600F15B72 /* MainViewController.swift */,
+				23C0F18A248AC32400F15B72 /* InstructionsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		23C0F18D248AC78600F15B72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23C0F179248A4AE600F15B72 /* Main.storyboard */,
+				23C0F17E248A4AE700F15B72 /* LaunchScreen.storyboard */,
+				23C0F188248A9D6D00F15B72 /* Phosphate.ttc */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		23C0F18E248AC79100F15B72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
