@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -21,22 +21,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="1wG-tS-yjp">
-                                <rect key="frame" x="41.333333333333343" y="64" width="331.33333333333326" height="698"/>
+                                <rect key="frame" x="41.5" y="64" width="331" height="698"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="OtZ-ij-o7y">
-                                        <rect key="frame" x="0.0" y="0.0" width="331.33333333333331" height="382.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="331" height="376.5"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El mejor juego para beber" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="GIB-WX-uPn">
-                                        <rect key="frame" x="0.0" y="402.33333333333331" width="331.33333333333331" height="23.333333333333314"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                        <rect key="frame" x="0.0" y="396.5" width="331" height="29"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="21"/>
                                         <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ztu-gp-xiv">
-                                        <rect key="frame" x="0.0" y="445.66666666666669" width="331.33333333333331" height="252.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="445.5" width="331" height="252.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D94-UL-5eh">
-                                                <rect key="frame" x="0.0" y="0.0" width="331.33333333333331" height="48"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="331" height="48.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="D94-UL-5eh" secondAttribute="height" multiplier="62:9" id="icT-ec-usd"/>
                                                 </constraints>
@@ -49,7 +49,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xc9-ys-E6Q">
-                                                <rect key="frame" x="0.0" y="67.999999999999943" width="331.33333333333331" height="48.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="68.5" width="331" height="48"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="xc9-ys-E6Q" secondAttribute="height" multiplier="62:9" id="5hH-Sw-dBf"/>
                                                 </constraints>
@@ -62,7 +62,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tc2-5I-qVs">
-                                                <rect key="frame" x="0.0" y="136.33333333333331" width="331.33333333333331" height="48"/>
+                                                <rect key="frame" x="0.0" y="136.5" width="331" height="48"/>
                                                 <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
                                                 <state key="normal" title="PREFIERO" backgroundImage="BUTTON BOX">
                                                     <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -72,7 +72,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBN-V4-gAE">
-                                                <rect key="frame" x="0.0" y="204.33333333333331" width="331.33333333333331" height="48"/>
+                                                <rect key="frame" x="0.0" y="204.5" width="331" height="48"/>
                                                 <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
                                                 <state key="normal" title="QUIÉN ES + PROBABLE" backgroundImage="BUTTON BOX">
                                                     <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
