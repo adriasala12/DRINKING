@@ -101,16 +101,22 @@
                                     <constraint firstAttribute="height" constant="50" id="thA-rm-d8J"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TIa-V6-V94">
+                                <rect key="frame" x="30" y="64" width="36" height="35"/>
+                                <state key="normal" image="MENU BUTTON"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.16078431372549018" green="0.16078431372549018" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dVy-cO-raG" secondAttribute="bottom" constant="20" id="1hp-Pp-C2f"/>
+                            <constraint firstItem="TIa-V6-V94" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="5gR-Wi-7Rn"/>
                             <constraint firstItem="1wG-tS-yjp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8pA-hh-sQd"/>
                             <constraint firstItem="1wG-tS-yjp" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="OnG-xL-EVH"/>
                             <constraint firstItem="OtZ-ij-o7y" firstAttribute="height" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="RF9-1E-2n0"/>
                             <constraint firstItem="dVy-cO-raG" firstAttribute="top" secondItem="1wG-tS-yjp" secondAttribute="bottom" constant="30" id="XhL-jA-mhH"/>
                             <constraint firstItem="1wG-tS-yjp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="dNj-Bm-DIx"/>
                             <constraint firstItem="dVy-cO-raG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gZ5-M6-Aph"/>
+                            <constraint firstItem="TIa-V6-V94" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="iBa-va-dCS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -123,5 +129,6 @@
     <resources>
         <image name="BUTTON BOX" width="300" height="45"/>
         <image name="LOGO TXT NO BG" width="310" height="425"/>
+        <image name="MENU BUTTON" width="36" height="35"/>
     </resources>
 </document>
