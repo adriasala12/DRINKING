@@ -6,6 +6,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Phosphate.ttc">
+            <string>Phosphate-Inline</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -16,57 +21,61 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="1wG-tS-yjp">
-                                <rect key="frame" x="56.333333333333343" y="64" width="301.33333333333326" height="698"/>
+                                <rect key="frame" x="41.333333333333343" y="64" width="331.33333333333326" height="698"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalCompressionResistancePriority="250" image="LOGO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="OtZ-ij-o7y">
-                                        <rect key="frame" x="0.0" y="0.0" width="301.33333333333331" height="425"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" image="LOGO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="OtZ-ij-o7y">
+                                        <rect key="frame" x="0.0" y="0.0" width="331.33333333333331" height="425.66666666666669"/>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ztu-gp-xiv">
-                                        <rect key="frame" x="0.0" y="445" width="301.33333333333331" height="253"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ztu-gp-xiv">
+                                        <rect key="frame" x="0.0" y="445.66666666666669" width="331.33333333333331" height="252.33333333333331"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D94-UL-5eh">
-                                                <rect key="frame" x="0.0" y="0.0" width="301.33333333333331" height="48.333333333333336"/>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D94-UL-5eh">
+                                                <rect key="frame" x="0.0" y="0.0" width="331.33333333333331" height="48"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="D94-UL-5eh" secondAttribute="height" multiplier="25:4" id="Jwr-44-pkP"/>
+                                                    <constraint firstAttribute="width" secondItem="D94-UL-5eh" secondAttribute="height" multiplier="62:9" id="icT-ec-usd"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="28"/>
-                                                <state key="normal" title="Button" backgroundImage="BUTTON BOX">
+                                                <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
+                                                <state key="normal" title="YO NUNCA" backgroundImage="BUTTON BOX">
+                                                    <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                     </preferredSymbolConfiguration>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caD-U3-cCt">
-                                                <rect key="frame" x="0.0" y="68.333333333333371" width="301.33333333333331" height="48.333333333333343"/>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xc9-ys-E6Q">
+                                                <rect key="frame" x="0.0" y="67.999999999999943" width="331.33333333333331" height="48.333333333333343"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="caD-U3-cCt" secondAttribute="height" multiplier="25:4" id="EAr-jc-kFk"/>
+                                                    <constraint firstAttribute="width" secondItem="xc9-ys-E6Q" secondAttribute="height" multiplier="62:9" id="5hH-Sw-dBf"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="28"/>
-                                                <state key="normal" title="Button" backgroundImage="BUTTON BOX">
+                                                <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
+                                                <state key="normal" title="BACK2BACK" backgroundImage="BUTTON BOX">
+                                                    <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                     </preferredSymbolConfiguration>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OFS-y6-iAF">
-                                                <rect key="frame" x="0.0" y="136.66666666666663" width="301.33333333333331" height="48"/>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tc2-5I-qVs">
+                                                <rect key="frame" x="0.0" y="136.33333333333331" width="331.33333333333331" height="48"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="OFS-y6-iAF" secondAttribute="height" multiplier="25:4" id="EEV-Tq-Mt7"/>
+                                                    <constraint firstAttribute="width" secondItem="tc2-5I-qVs" secondAttribute="height" multiplier="62:9" id="F4O-GO-0LB"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="28"/>
-                                                <state key="normal" title="Button" backgroundImage="BUTTON BOX">
+                                                <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
+                                                <state key="normal" title="PREFIERO" backgroundImage="BUTTON BOX">
+                                                    <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                     </preferredSymbolConfiguration>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3E3-BQ-UfJ">
-                                                <rect key="frame" x="0.0" y="204.66666666666663" width="301.33333333333331" height="48.333333333333343"/>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBN-V4-gAE">
+                                                <rect key="frame" x="0.0" y="204.33333333333331" width="331.33333333333331" height="48"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="3E3-BQ-UfJ" secondAttribute="height" multiplier="25:4" id="cWc-Vx-HtU"/>
+                                                    <constraint firstAttribute="width" secondItem="BBN-V4-gAE" secondAttribute="height" multiplier="62:9" id="rAG-g3-NIR"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="28"/>
-                                                <state key="normal" title="Button" backgroundImage="BUTTON BOX">
+                                                <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
+                                                <state key="normal" title="QUIÉN ES MÁS PROBABLE" backgroundImage="BUTTON BOX">
+                                                    <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                     </preferredSymbolConfiguration>
@@ -74,20 +83,19 @@
                                             </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="OFS-y6-iAF" secondAttribute="trailing" id="0kz-K5-Mpi"/>
-                                            <constraint firstItem="caD-U3-cCt" firstAttribute="leading" secondItem="Ztu-gp-xiv" secondAttribute="leading" id="2sD-K6-Q3a"/>
-                                            <constraint firstAttribute="trailing" secondItem="caD-U3-cCt" secondAttribute="trailing" id="3bz-r2-Ehe"/>
+                                            <constraint firstItem="BBN-V4-gAE" firstAttribute="width" secondItem="BBN-V4-gAE" secondAttribute="height" multiplier="62:9" id="6yh-ed-d9P"/>
+                                            <constraint firstItem="BBN-V4-gAE" firstAttribute="width" secondItem="BBN-V4-gAE" secondAttribute="height" multiplier="62:9" id="9GC-3c-uJj"/>
+                                            <constraint firstAttribute="trailing" secondItem="D94-UL-5eh" secondAttribute="trailing" id="Dcf-NK-DoS"/>
+                                            <constraint firstItem="tc2-5I-qVs" firstAttribute="width" secondItem="tc2-5I-qVs" secondAttribute="height" multiplier="62:9" id="GQE-dM-cCI"/>
                                             <constraint firstAttribute="trailing" secondItem="D94-UL-5eh" secondAttribute="trailing" id="O8M-p0-caT"/>
                                             <constraint firstItem="D94-UL-5eh" firstAttribute="leading" secondItem="Ztu-gp-xiv" secondAttribute="leading" id="OlN-Lt-H5g"/>
-                                            <constraint firstAttribute="trailing" secondItem="3E3-BQ-UfJ" secondAttribute="trailing" id="PMn-2G-VV4"/>
-                                            <constraint firstItem="3E3-BQ-UfJ" firstAttribute="leading" secondItem="Ztu-gp-xiv" secondAttribute="leading" id="Xup-mC-IRp"/>
-                                            <constraint firstItem="OFS-y6-iAF" firstAttribute="leading" secondItem="Ztu-gp-xiv" secondAttribute="leading" id="xta-1O-deu"/>
+                                            <constraint firstItem="tc2-5I-qVs" firstAttribute="width" secondItem="tc2-5I-qVs" secondAttribute="height" multiplier="62:9" id="XgP-nV-IaN"/>
+                                            <constraint firstItem="BBN-V4-gAE" firstAttribute="width" secondItem="BBN-V4-gAE" secondAttribute="height" multiplier="62:9" id="Ybi-Ds-EQe"/>
+                                            <constraint firstItem="xc9-ys-E6Q" firstAttribute="width" secondItem="xc9-ys-E6Q" secondAttribute="height" multiplier="62:9" id="fcu-la-SAv"/>
+                                            <constraint firstItem="D94-UL-5eh" firstAttribute="leading" secondItem="Ztu-gp-xiv" secondAttribute="leading" id="pzD-uA-GM3"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="OtZ-ij-o7y" firstAttribute="height" secondItem="Ztu-gp-xiv" secondAttribute="height" multiplier="1.67984" id="HlJ-Cd-Ue3"/>
-                                </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dVy-cO-raG">
                                 <rect key="frame" x="57" y="792" width="300" height="50"/>
@@ -102,6 +110,8 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dVy-cO-raG" secondAttribute="bottom" constant="20" id="1hp-Pp-C2f"/>
                             <constraint firstItem="1wG-tS-yjp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8pA-hh-sQd"/>
+                            <constraint firstItem="1wG-tS-yjp" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="OnG-xL-EVH"/>
+                            <constraint firstItem="OtZ-ij-o7y" firstAttribute="height" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="RF9-1E-2n0"/>
                             <constraint firstItem="dVy-cO-raG" firstAttribute="top" secondItem="1wG-tS-yjp" secondAttribute="bottom" constant="30" id="XhL-jA-mhH"/>
                             <constraint firstItem="1wG-tS-yjp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="dNj-Bm-DIx"/>
                             <constraint firstItem="dVy-cO-raG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gZ5-M6-Aph"/>
