@@ -256,7 +256,7 @@
         <!--Game View Controller-->
         <scene sceneID="eR4-Xc-q9x">
             <objects>
-                <viewController id="eKS-dI-mE4" customClass="GameViewController" sceneMemberID="viewController">
+                <viewController id="eKS-dI-mE4" customClass="GameViewController" customModule="DRINKING" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RrJ-wK-MEN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -289,6 +289,7 @@
                                             </preferredSymbolConfiguration>
                                         </state>
                                         <connections>
+                                            <action selector="nextButtonTapped:" destination="eKS-dI-mE4" eventType="touchUpInside" id="RXP-Cu-qn0"/>
                                             <action selector="yoNuncaTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Vz-is-jOZ"/>
                                         </connections>
                                     </button>
@@ -337,6 +338,9 @@
                         <viewLayoutGuide key="safeArea" id="wFS-vM-hSv"/>
                     </view>
                     <navigationItem key="navigationItem" id="LPy-GJ-9Nf"/>
+                    <connections>
+                        <outlet property="quoteLabel" destination="2wa-5w-wrK" id="oGi-uQ-qXS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7jF-UV-F4n" sceneMemberID="firstResponder"/>
             </objects>
