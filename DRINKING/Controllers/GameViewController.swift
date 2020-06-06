@@ -13,11 +13,16 @@ class GameViewController: UIViewController {
     var selectedGame: Games!
     var quotes: [String]!
 
+    @IBOutlet weak var quoteLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Assign the quotes for the selected game
         quotes = selectedGame.quotes
+        
+        // Get first quote
+        quoteLabel.text = getRandomQuote()
 
     }
     
@@ -31,5 +36,9 @@ class GameViewController: UIViewController {
         quotes.remove(at: randomIndex)
         return quote
     }
-
+    
+    @IBAction func nextButtonTapped(_ sender: Any) {
+        quoteLabel.text = getRandomQuote()
+    }
+    
 }
