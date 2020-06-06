@@ -21,5 +21,8 @@ class InstructionsViewController: UIViewController {
         
     }
     
-
+    @IBAction func backButtonTapped(_ sender: Any) {
+        self.navigationController?.popToRootViewController(animated: true)
+    }
+    
 }
