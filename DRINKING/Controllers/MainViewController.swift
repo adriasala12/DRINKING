@@ -15,19 +15,19 @@ class MainViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func settingsTapped(_ sender: Any) {
+    @IBAction func settingsTapped(_ sender: UIButton) {
         
     }
     
-    @IBAction func yoNuncaTapped(_ sender: Any) {
+    @IBAction func yoNuncaTapped(_ sender: UIButton) {
         
     }
     
-    @IBAction func back2backTapped(_ sender: Any) {
+    @IBAction func back2backTapped(_ sender: UIButton) {
         
     }
     
-    @IBAction func prefieroTapped(_ sender: Any) {
+    @IBAction func prefieroTapped(_ sender: UIButton) {
         
     }
     
