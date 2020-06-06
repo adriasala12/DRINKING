@@ -21,6 +21,15 @@ class GameViewController: UIViewController {
 
     }
     
-    
+    fileprivate func getRandomQuote() -> String {
+        if quotes.count == 0 {
+            // TODO: Decide whether finishing the game or repeat the same quotes
+        }
+        
+        let randomIndex = Int.random(in: 0..<quotes.count)
+        let quote = quotes[randomIndex]
+        quotes.remove(at: randomIndex)
+        return quote
+    }
 
 }
