@@ -13,11 +13,16 @@ class InstructionsViewController: UIViewController {
     @IBOutlet weak var instructions: UILabel!
 
     var selectedGame: Games!
+    var quotes: [String]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Show the instructions for the selected game
         instructions.text = selectedGame.instructions
+        
+        // Assign the quotes for the selected game
+        quotes = selectedGame.quotes
         
     }
     

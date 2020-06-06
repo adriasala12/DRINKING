@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		23264047248B990600F73B0D /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23264046248B990600F73B0D /* Games.swift */; };
+		23264049248BA5A300F73B0D /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23264048248BA5A300F73B0D /* Quotes.swift */; };
 		23C0F174248A4AE600F15B72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C0F173248A4AE600F15B72 /* AppDelegate.swift */; };
 		23C0F176248A4AE600F15B72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C0F175248A4AE600F15B72 /* SceneDelegate.swift */; };
 		23C0F178248A4AE600F15B72 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C0F177248A4AE600F15B72 /* MainViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		23264046248B990600F73B0D /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		23264048248BA5A300F73B0D /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 		23C0F170248A4AE600F15B72 /* DRINKING.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRINKING.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C0F173248A4AE600F15B72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23C0F175248A4AE600F15B72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				23264046248B990600F73B0D /* Games.swift */,
+				23264048248BA5A300F73B0D /* Quotes.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				23C0F174248A4AE600F15B72 /* AppDelegate.swift in Sources */,
 				23C0F18B248AC32400F15B72 /* InstructionsViewController.swift in Sources */,
 				23C0F176248A4AE600F15B72 /* SceneDelegate.swift in Sources */,
+				23264049248BA5A300F73B0D /* Quotes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
