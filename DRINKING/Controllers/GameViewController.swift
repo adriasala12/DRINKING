@@ -9,11 +9,15 @@
 import UIKit
 
 class GameViewController: UIViewController {
+    
+    var selectedGame: Games!
+    var quotes: [String]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        // Assign the quotes for the selected game
+        quotes = selectedGame.quotes
 
     }
     

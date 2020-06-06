@@ -21,13 +21,19 @@ class InstructionsViewController: UIViewController {
         // Show the instructions for the selected game
         instructions.text = selectedGame.instructions
         
-        // Assign the quotes for the selected game
-        quotes = selectedGame.quotes
-        
     }
     
     @IBAction func backButtonTapped(_ sender: Any) {
         self.navigationController?.popToRootViewController(animated: true)
     }
     
+    @IBAction func playButtonTapped(_ sender: Any) {
+        performSegue(withIdentifier: "toGame", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! GameViewController
+        destinationVC.selectedGame = selectedGame
+    }
+
 }
