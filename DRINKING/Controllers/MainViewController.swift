@@ -20,19 +20,24 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func yoNuncaTapped(_ sender: UIButton) {
-        
+        performSegue(withIdentifier: "toInstructions", sender: Games.yoNunca)
     }
     
     @IBAction func back2backTapped(_ sender: UIButton) {
-        
+        performSegue(withIdentifier: "toInstructions", sender: Games.back2back)
     }
     
     @IBAction func prefieroTapped(_ sender: UIButton) {
-        
+        performSegue(withIdentifier: "toInstructions", sender: Games.prefiero)
     }
     
-    @IBAction func quienEsMasProbableTapped(_ sender: Any) {
-        
+    @IBAction func quienEsMasProbableTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "toInstructions", sender: Games.quienEsMasProbable)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! InstructionsViewController
+        destinationVC.selectedGame = (sender as! Games)
     }
     
 }

@@ -129,10 +129,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="EM8-5X-21X" kind="presentation" identifier="toInstructions" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Z2d-RN-jZi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.23188405797103" y="137.27678571428569"/>
+            <point key="canvasLocation" x="280" y="137"/>
         </scene>
         <!--Instructions View Controller-->
         <scene sceneID="50o-Vb-HQr">
@@ -146,10 +149,10 @@
                                 <rect key="frame" x="20" y="64" width="374" height="698"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-wg-Foq">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="299.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="298.66666666666669"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="¿CÓMO JUGAR?" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="4xa-Xe-QeQ">
-                                        <rect key="frame" x="0.0" y="319.66666666666669" width="374" height="35"/>
+                                        <rect key="frame" x="0.0" y="318.66666666666669" width="374" height="36"/>
                                         <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="30"/>
                                         <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -163,7 +166,7 @@
                                             <constraint firstAttribute="width" secondItem="D94-UL-5eh" secondAttribute="height" multiplier="62:9" id="icT-ec-usd"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
-                                        <state key="normal" title="YO NUNCA" backgroundImage="BUTTON BOX">
+                                        <state key="normal" title="a jugar!" backgroundImage="BUTTON BOX">
                                             <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
@@ -217,10 +220,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="v0Q-aO-NHn"/>
                     </view>
+                    <navigationItem key="navigationItem" id="K3f-5F-Aep"/>
+                    <connections>
+                        <outlet property="instructions" destination="bTx-YH-ecd" id="POi-pS-jMH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Drg-f5-fGt" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1003" y="137"/>
+            <point key="canvasLocation" x="1141" y="137"/>
         </scene>
     </scenes>
     <resources>

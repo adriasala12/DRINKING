@@ -10,13 +10,16 @@ import UIKit
 
 class InstructionsViewController: UIViewController {
 
-    @IBOutlet weak var instructionsLabel: UILabel!
+    @IBOutlet weak var instructions: UILabel!
+
+    var selectedGame: Games!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        instructions.text = selectedGame.instructions
+        
     }
-    
     
 
 }
