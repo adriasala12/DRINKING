@@ -150,10 +150,10 @@
                                 <rect key="frame" x="20" y="64" width="374" height="698"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-wg-Foq">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="299.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="298.66666666666669"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="¿CÓMO JUGAR?" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="4xa-Xe-QeQ">
-                                        <rect key="frame" x="0.0" y="319.66666666666669" width="374" height="35"/>
+                                        <rect key="frame" x="0.0" y="318.66666666666669" width="374" height="36"/>
                                         <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="30"/>
                                         <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -166,7 +166,7 @@
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="D94-UL-5eh" secondAttribute="height" multiplier="62:9" id="icT-ec-usd"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
+                                        <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="32"/>
                                         <state key="normal" title="a jugar!" backgroundImage="BUTTON BOX">
                                             <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
@@ -227,6 +227,7 @@
                     <navigationItem key="navigationItem" id="K3f-5F-Aep"/>
                     <connections>
                         <outlet property="instructions" destination="bTx-YH-ecd" id="POi-pS-jMH"/>
+                        <segue destination="eKS-dI-mE4" kind="show" identifier="toGame" id="Eqs-Kd-9tO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Drg-f5-fGt" sceneMemberID="firstResponder"/>
@@ -250,6 +251,95 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AeO-au-C47" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="407" y="137"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="eR4-Xc-q9x">
+            <objects>
+                <viewController id="eKS-dI-mE4" customClass="GameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RrJ-wK-MEN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="5D4-1V-Xwa">
+                                <rect key="frame" x="20" y="64" width="374" height="698"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="rx1-tQ-Qao">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="298.66666666666669"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="YO NUNCA..." textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="GzP-El-Rhv">
+                                        <rect key="frame" x="0.0" y="318.66666666666669" width="374" height="36"/>
+                                        <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="30"/>
+                                        <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="TXT BOX" translatesAutoresizingMaskIntoConstraints="NO" id="gco-oO-eGN">
+                                        <rect key="frame" x="0.0" y="374.66666666666669" width="374" height="249.00000000000006"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vnS-64-rI9">
+                                        <rect key="frame" x="0.0" y="643.66666666666663" width="374" height="54.333333333333371"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="vnS-64-rI9" secondAttribute="height" multiplier="62:9" id="hGU-fD-ME7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="32"/>
+                                        <state key="normal" title="SIGUIENTE" backgroundImage="BUTTON BOX">
+                                            <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            </preferredSymbolConfiguration>
+                                        </state>
+                                        <connections>
+                                            <action selector="yoNuncaTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Vz-is-jOZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="gco-oO-eGN" firstAttribute="height" secondItem="vnS-64-rI9" secondAttribute="height" multiplier="4.58716" id="FG6-GG-FQ9"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0h8-1M-OMj">
+                                <rect key="frame" x="57" y="792" width="300" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="QPu-Il-BPF"/>
+                                    <constraint firstAttribute="width" constant="300" id="fH6-ub-lGx"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TH9-or-ok7">
+                                <rect key="frame" x="30" y="64" width="21.333333333333329" height="37.333333333333343"/>
+                                <state key="normal" image="BACK BUTTON"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="2wa-5w-wrK">
+                                <rect key="frame" x="48" y="450.99999999999994" width="318" height="224.33333333333331"/>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16078431369999999" green="0.16078431369999999" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="0h8-1M-OMj" firstAttribute="centerX" secondItem="RrJ-wK-MEN" secondAttribute="centerX" id="0lF-Ya-Kwj"/>
+                            <constraint firstItem="TH9-or-ok7" firstAttribute="top" secondItem="wFS-vM-hSv" secondAttribute="top" constant="20" id="7bf-f9-jeO"/>
+                            <constraint firstItem="5D4-1V-Xwa" firstAttribute="top" secondItem="wFS-vM-hSv" secondAttribute="top" constant="20" id="8Mf-LB-qX1"/>
+                            <constraint firstItem="2wa-5w-wrK" firstAttribute="centerX" secondItem="gco-oO-eGN" secondAttribute="centerX" id="8bH-RF-49j"/>
+                            <constraint firstItem="2wa-5w-wrK" firstAttribute="centerY" secondItem="gco-oO-eGN" secondAttribute="centerY" id="Bgi-qK-Ehx"/>
+                            <constraint firstItem="5D4-1V-Xwa" firstAttribute="centerX" secondItem="RrJ-wK-MEN" secondAttribute="centerX" id="ENA-1t-mbn"/>
+                            <constraint firstItem="2wa-5w-wrK" firstAttribute="width" secondItem="gco-oO-eGN" secondAttribute="width" multiplier="0.85" id="Xc4-XR-IOs"/>
+                            <constraint firstItem="TH9-or-ok7" firstAttribute="leading" secondItem="wFS-vM-hSv" secondAttribute="leading" constant="30" id="bNc-eF-Rhf"/>
+                            <constraint firstItem="wFS-vM-hSv" firstAttribute="trailing" secondItem="5D4-1V-Xwa" secondAttribute="trailing" constant="20" id="ieb-ZG-ErA"/>
+                            <constraint firstItem="2wa-5w-wrK" firstAttribute="height" secondItem="gco-oO-eGN" secondAttribute="height" multiplier="0.9" id="mSg-1T-0BQ"/>
+                            <constraint firstItem="5D4-1V-Xwa" firstAttribute="leading" secondItem="wFS-vM-hSv" secondAttribute="leading" constant="20" id="myR-9U-PTe"/>
+                            <constraint firstItem="wFS-vM-hSv" firstAttribute="bottom" secondItem="0h8-1M-OMj" secondAttribute="bottom" constant="20" id="so2-hz-2cZ"/>
+                            <constraint firstItem="0h8-1M-OMj" firstAttribute="top" secondItem="5D4-1V-Xwa" secondAttribute="bottom" constant="30" id="tGB-ZH-J1h"/>
+                            <constraint firstItem="rx1-tQ-Qao" firstAttribute="height" relation="greaterThanOrEqual" secondItem="RrJ-wK-MEN" secondAttribute="height" multiplier="0.2" id="zy6-VQ-EFb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wFS-vM-hSv"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LPy-GJ-9Nf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7jF-UV-F4n" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2881" y="137"/>
         </scene>
     </scenes>
     <resources>
