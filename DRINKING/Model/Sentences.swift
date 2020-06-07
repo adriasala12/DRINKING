@@ -1,5 +1,5 @@
 //
-//  Quotes.swift
+//  Sentences.swift
 //  DRINKING
 //
 //  Created by Adrià Sala Roget on 06/06/2020.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Quotes {
+struct Sentences {
     
     static let yoNunca = [
         "Frase yo nunca 1",

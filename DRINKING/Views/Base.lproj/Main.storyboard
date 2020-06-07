@@ -339,7 +339,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="LPy-GJ-9Nf"/>
                     <connections>
-                        <outlet property="quoteLabel" destination="2wa-5w-wrK" id="oGi-uQ-qXS"/>
+                        <outlet property="sentenceLabel" destination="2wa-5w-wrK" id="oGi-uQ-qXS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7jF-UV-F4n" sceneMemberID="firstResponder"/>

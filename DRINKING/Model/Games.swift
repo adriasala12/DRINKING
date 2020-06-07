@@ -49,16 +49,16 @@ enum Games: Int {
         }
     }
     
-    var quotes: [String] {
+    var sentences: [String] {
         switch self {
         case .yoNunca:
-            return Quotes.yoNunca
+            return Sentences.yoNunca
         case .back2back:
-            return Quotes.back2back
+            return Sentences.back2back
         case .prefiero:
-            return Quotes.prefiero
+            return Sentences.prefiero
         case .quienEsMasProbable:
-            return Quotes.quienEsMasProbable
+            return Sentences.quienEsMasProbable
         }
     }
     

@@ -11,34 +11,36 @@ import UIKit
 class GameViewController: UIViewController {
     
     var selectedGame: Games!
-    var quotes: [String]!
+    var sentences: [String]!
 
-    @IBOutlet weak var quoteLabel: UILabel!
+    @IBOutlet weak var sentenceLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Assign the quotes for the selected game
-        quotes = selectedGame.quotes
+        sentences = selectedGame.sentences
         
         // Get first quote
-        quoteLabel.text = getRandomQuote()
+        sentenceLabel.text = getRandomQuote()
 
     }
     
     fileprivate func getRandomQuote() -> String {
-        if quotes.count == 0 {
+        if sentences.count == 0 {
             // TODO: Decide whether finishing the game or repeat the same quotes
         }
         
-        let randomIndex = Int.random(in: 0..<quotes.count)
-        let quote = quotes[randomIndex]
-        quotes.remove(at: randomIndex)
+        let randomIndex = Int.random(in: 0..<sentences.count)
+        let quote = sentences[randomIndex]
+        sentences.remove(at: randomIndex)
         return quote
     }
     
     @IBAction func nextButtonTapped(_ sender: Any) {
-        quoteLabel.text = getRandomQuote()
+        sentenceLabel.text = getRandomQuote()
     }
+    
+    // TODO: Add tap gesture recognizer to text box
     
 }
