@@ -23,16 +23,20 @@ class GameViewController: UIViewController {
         sentences = selectedGame.sentences
         
         // Get first quote
-        sentenceLabel.text = getRandomQuote()
+        sentenceLabel.text = getRandomSentence()
 
     }
     
-    fileprivate func getRandomQuote() -> String {
+    fileprivate func getRandomSentence() -> String {
+        // If there are no more sentences
         if sentences.count == 0 {
+            // Change button title
             nextButton.setTitle("MENÚ", for: .normal)
+            // Return Game Over label
             return "GAME OVER"
         }
         
+        // If there are quotes, return a random quote and remove it from the list
         let randomIndex = Int.random(in: 0..<sentences.count)
         let quote = sentences[randomIndex]
         sentences.remove(at: randomIndex)
@@ -40,10 +44,12 @@ class GameViewController: UIViewController {
     }
     
     @IBAction func nextButtonTapped(_ sender: Any) {
+        // If there are no sentences left, return to menu
         if nextButton.titleLabel?.text == "MENÚ" {
             self.navigationController?.popToRootViewController(animated: true)
         } else {
-            sentenceLabel.text = getRandomQuote()
+            // If there are sentences, return random sentence
+            sentenceLabel.text = getRandomSentence()
         }
     }
     
