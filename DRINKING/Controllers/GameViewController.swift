@@ -14,6 +14,7 @@ class GameViewController: UIViewController {
     var sentences: [String]!
 
     @IBOutlet weak var sentenceLabel: UILabel!
+    @IBOutlet weak var nextButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +29,8 @@ class GameViewController: UIViewController {
     
     fileprivate func getRandomQuote() -> String {
         if sentences.count == 0 {
-            // TODO: Decide whether finishing the game or repeat the same quotes
+            nextButton.setTitle("MENÚ", for: .normal)
+            return "GAME OVER"
         }
         
         let randomIndex = Int.random(in: 0..<sentences.count)
@@ -38,7 +40,11 @@ class GameViewController: UIViewController {
     }
     
     @IBAction func nextButtonTapped(_ sender: Any) {
-        sentenceLabel.text = getRandomQuote()
+        if nextButton.titleLabel?.text == "MENÚ" {
+            self.navigationController?.popToRootViewController(animated: true)
+        } else {
+            sentenceLabel.text = getRandomQuote()
+        }
     }
     
     // TODO: Add tap gesture recognizer to text box
