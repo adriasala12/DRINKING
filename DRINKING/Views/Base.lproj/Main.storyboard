@@ -150,10 +150,10 @@
                                 <rect key="frame" x="20" y="64" width="374" height="698"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-wg-Foq">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="299.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="298.66666666666669"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="¿CÓMO JUGAR?" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="4xa-Xe-QeQ">
-                                        <rect key="frame" x="0.0" y="319.66666666666669" width="374" height="35"/>
+                                        <rect key="frame" x="0.0" y="318.66666666666669" width="374" height="36"/>
                                         <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="30"/>
                                         <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -265,10 +265,10 @@
                                 <rect key="frame" x="20" y="64" width="374" height="698"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="rx1-tQ-Qao">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="299.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="298.66666666666669"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="YO NUNCA..." textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="GzP-El-Rhv">
-                                        <rect key="frame" x="0.0" y="319.66666666666669" width="374" height="35"/>
+                                        <rect key="frame" x="0.0" y="318.66666666666669" width="374" height="36"/>
                                         <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="30"/>
                                         <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -310,7 +310,7 @@
                                 <rect key="frame" x="30" y="64" width="21.333333333333329" height="37.333333333333343"/>
                                 <state key="normal" image="BACK BUTTON"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="2wa-5w-wrK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="2wa-5w-wrK">
                                 <rect key="frame" x="48" y="450.99999999999994" width="318" height="224.33333333333331"/>
                                 <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
