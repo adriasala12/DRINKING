@@ -15,9 +15,13 @@ class GameViewController: UIViewController {
 
     @IBOutlet weak var sentenceLabel: UILabel!
     @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var gameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Set title label to game name
+        gameLabel.text = selectedGame.name
         
         // Assign the quotes for the selected game
         sentences = selectedGame.sentences
@@ -51,6 +55,10 @@ class GameViewController: UIViewController {
             // If there are sentences, return random sentence
             sentenceLabel.text = getRandomSentence()
         }
+    }
+    
+    @IBAction func backButtonTapped(_ sender: Any) {
+        self.navigationController?.popToRootViewController(animated: true)
     }
     
     // TODO: Add tap gesture recognizer to text box
