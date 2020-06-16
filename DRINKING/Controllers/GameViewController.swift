@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GameViewController: UIViewController {
+class GameViewController: UIViewController, UIGestureRecognizerDelegate {
     
     var selectedGame: Games!
     var sentences: [String]!
@@ -28,6 +28,14 @@ class GameViewController: UIViewController {
         
         // Get first quote
         sentenceLabel.text = getRandomSentence()
+        
+        // Add back gesture recognizer
+        // Remove instructionsVC from the navigation stack
+        self.navigationController?.viewControllers[1].removeFromParent()
+        // Now the gesture recognizer will return to the root VC
+        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
+        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
+        
 
     }
     

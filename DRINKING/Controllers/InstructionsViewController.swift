@@ -8,7 +8,7 @@
 
 import UIKit
 
-class InstructionsViewController: UIViewController {
+class InstructionsViewController: UIViewController, UIGestureRecognizerDelegate {
 
     @IBOutlet weak var instructions: UILabel!
 
@@ -19,6 +19,10 @@ class InstructionsViewController: UIViewController {
         
         // Show the instructions for the selected game
         instructions.text = selectedGame.instructions
+        
+        // Add back gesture recognizer
+        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
+        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
         
     }
     
