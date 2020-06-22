@@ -177,7 +177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g9y-u2-5Mw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1230.4347826086957" y="-540.40178571428567"/>
+            <point key="canvasLocation" x="2129" y="-214"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -299,6 +299,7 @@
                     <navigationItem key="navigationItem" id="HEy-7Y-yCE"/>
                     <connections>
                         <segue destination="EM8-5X-21X" kind="show" identifier="toInstructions" id="a5c-nL-T1T"/>
+                        <segue destination="iZw-Ee-VIV" kind="show" identifier="toSettings" id="TnM-hU-MIk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -400,7 +401,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Drg-f5-fGt" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2050.7246376811595" y="136.60714285714286"/>
+            <point key="canvasLocation" x="2129" y="500"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Csk-hV-YJX">
@@ -414,12 +415,11 @@
                     <nil name="viewControllers"/>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="xNf-iL-lbu"/>
-                        <segue destination="iZw-Ee-VIV" kind="presentation" modalPresentationStyle="fullScreen" id="bBc-8e-590"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AeO-au-C47" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="407" y="137"/>
+            <point key="canvasLocation" x="477" y="137"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="eR4-Xc-q9x">
@@ -517,7 +517,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7jF-UV-F4n" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2879.7101449275365" y="136.60714285714286"/>
+            <point key="canvasLocation" x="2958" y="500"/>
         </scene>
     </scenes>
     <resources>

@@ -15,8 +15,10 @@ class MainViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    // MARK: - NAVIGATION
+    
     @IBAction func settingsTapped(_ sender: UIButton) {
-        
+        performSegue(withIdentifier: "toSettings", sender: nil)
     }
     
     @IBAction func yoNuncaTapped(_ sender: UIButton) {
@@ -36,8 +38,10 @@ class MainViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destinationVC = segue.destination as! InstructionsViewController
-        destinationVC.selectedGame = (sender as! Games)
+        if segue.identifier == "toInstructions" {
+            let destinationVC = segue.destination as! InstructionsViewController
+            destinationVC.selectedGame = (sender as! Games)
+        }
     }
     
 }
