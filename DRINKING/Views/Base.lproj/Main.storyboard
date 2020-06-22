@@ -28,6 +28,7 @@
                                         <state key="normal" image="BACK BUTTON"/>
                                         <connections>
                                             <action selector="backButtonTapped:" destination="EM8-5X-21X" eventType="touchUpInside" id="N2a-BA-H2A"/>
+                                            <action selector="backButtonTapped:" destination="iZw-Ee-VIV" eventType="touchUpInside" id="cSX-TD-iJx"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="CONFIGURACIÓN" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="r0v-US-1I8">
