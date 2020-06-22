@@ -12,10 +12,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="6bL-fl-j25">
             <objects>
-                <viewController id="iZw-Ee-VIV" sceneMemberID="viewController">
+                <viewController id="iZw-Ee-VIV" customClass="SettingsViewController" customModule="DRINKING" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fwu-kq-ItQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
