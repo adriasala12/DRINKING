@@ -12,6 +12,174 @@
         </array>
     </customFonts>
     <scenes>
+        <!--Settings View Controller-->
+        <scene sceneID="6bL-fl-j25">
+            <objects>
+                <viewController id="iZw-Ee-VIV" customClass="SettingsViewController" customModule="DRINKING" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fwu-kq-ItQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="y0m-96-LYP">
+                                <rect key="frame" x="30" y="64" width="364" height="45.666666666666657"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2q2-eg-fPl">
+                                        <rect key="frame" x="0.0" y="4.3333333333333286" width="22.666666666666668" height="37.333333333333336"/>
+                                        <state key="normal" image="BACK BUTTON"/>
+                                        <connections>
+                                            <action selector="backButtonTapped:" destination="EM8-5X-21X" eventType="touchUpInside" id="N2a-BA-H2A"/>
+                                            <action selector="backButtonTapped:" destination="iZw-Ee-VIV" eventType="touchUpInside" id="cSX-TD-iJx"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="CONFIGURACIÓN" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="r0v-US-1I8">
+                                        <rect key="frame" x="59.666666666666657" y="0.0" width="304.33333333333337" height="45.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="38"/>
+                                        <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" image="TXT BOX" translatesAutoresizingMaskIntoConstraints="NO" id="rWP-sf-XbQ">
+                                <rect key="frame" x="20" y="154.66666666666663" width="374" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="T72-1a-gaL"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" image="TXT BOX" translatesAutoresizingMaskIntoConstraints="NO" id="9Jh-Mj-czj">
+                                <rect key="frame" x="20" y="404.66666666666674" width="374" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="mq9-vY-2dc"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="tXn-zS-hw4">
+                                <rect key="frame" x="57" y="177.33333333333337" width="300" height="175"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" text="Colores" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="8PE-Q6-bJz">
+                                        <rect key="frame" x="112.66666666666666" y="0.0" width="74.666666666666657" height="29"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="21"/>
+                                        <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="Bma-Yk-QAu">
+                                        <rect key="frame" x="0.0" y="52" width="300" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mv8-AZ-DSV">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <state key="normal" image="YellowSelector"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xht-bu-1r9">
+                                                <rect key="frame" x="125" y="0.0" width="50" height="50"/>
+                                                <state key="normal" image="GreenSelector"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljM-eq-hLC">
+                                                <rect key="frame" x="250" y="0.0" width="50" height="50"/>
+                                                <state key="normal" image="BlueSelector"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="81" translatesAutoresizingMaskIntoConstraints="NO" id="roG-iC-ezE">
+                                        <rect key="frame" x="59.666666666666686" y="124.99999999999997" width="181" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kNo-5M-d0Z">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <state key="normal" image="PinkSelector"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXS-An-UVN">
+                                                <rect key="frame" x="131" y="0.0" width="50" height="50"/>
+                                                <state key="normal" image="RedSelector"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="dc8-ki-245">
+                                <rect key="frame" x="57" y="429.33333333333326" width="300" height="301"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" text="Nombre" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="KVR-Fl-IG2">
+                                        <rect key="frame" x="109.66666666666666" y="0.0" width="81" height="29"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="21"/>
+                                        <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hB3-rj-HJ8">
+                                        <rect key="frame" x="0.0" y="52" width="300" height="45"/>
+                                        <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
+                                        <state key="normal" title="DRINKING" backgroundImage="BUTTON BOX">
+                                            <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            </preferredSymbolConfiguration>
+                                        </state>
+                                        <connections>
+                                            <action selector="yoNuncaTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dxG-Mf-bq5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5n-nk-VqH">
+                                        <rect key="frame" x="0.0" y="120.00000000000006" width="300" height="45"/>
+                                        <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
+                                        <state key="normal" title="DRINKQUEEN" backgroundImage="BUTTON BOX">
+                                            <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            </preferredSymbolConfiguration>
+                                        </state>
+                                        <connections>
+                                            <action selector="yoNuncaTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T7Y-kQ-vmh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayq-kT-8xh">
+                                        <rect key="frame" x="0.0" y="188.00000000000006" width="300" height="45"/>
+                                        <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
+                                        <state key="normal" title="DRINKQUEER" backgroundImage="BUTTON BOX">
+                                            <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            </preferredSymbolConfiguration>
+                                        </state>
+                                        <connections>
+                                            <action selector="yoNuncaTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bG8-wY-A1I"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xoM-Ur-4Ie">
+                                        <rect key="frame" x="0.0" y="256.00000000000006" width="300" height="45"/>
+                                        <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="28"/>
+                                        <state key="normal" title="DRINKER" backgroundImage="BUTTON BOX">
+                                            <color key="titleColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            </preferredSymbolConfiguration>
+                                        </state>
+                                        <connections>
+                                            <action selector="yoNuncaTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="152-Vh-eNS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16078431369999999" green="0.16078431369999999" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="QRG-RC-iRv" firstAttribute="trailing" secondItem="y0m-96-LYP" secondAttribute="trailing" constant="20" id="6e6-QJ-2RA"/>
+                            <constraint firstItem="tXn-zS-hw4" firstAttribute="centerY" secondItem="rWP-sf-XbQ" secondAttribute="centerY" id="8vp-rq-zRV"/>
+                            <constraint firstItem="dc8-ki-245" firstAttribute="centerX" secondItem="9Jh-Mj-czj" secondAttribute="centerX" id="HED-Up-ZXd"/>
+                            <constraint firstItem="dc8-ki-245" firstAttribute="centerY" secondItem="9Jh-Mj-czj" secondAttribute="centerY" id="OXp-0i-hj2"/>
+                            <constraint firstItem="QRG-RC-iRv" firstAttribute="trailing" secondItem="9Jh-Mj-czj" secondAttribute="trailing" constant="20" id="WNe-SJ-1Me"/>
+                            <constraint firstItem="tXn-zS-hw4" firstAttribute="centerX" secondItem="rWP-sf-XbQ" secondAttribute="centerX" id="YvA-Vc-czj"/>
+                            <constraint firstItem="y0m-96-LYP" firstAttribute="leading" secondItem="QRG-RC-iRv" secondAttribute="leading" constant="30" id="fpT-2h-mZz"/>
+                            <constraint firstItem="9Jh-Mj-czj" firstAttribute="leading" secondItem="QRG-RC-iRv" secondAttribute="leading" constant="20" id="i5L-pK-krW"/>
+                            <constraint firstItem="y0m-96-LYP" firstAttribute="top" secondItem="QRG-RC-iRv" secondAttribute="top" constant="20" id="mCk-4N-mdB"/>
+                            <constraint firstItem="9Jh-Mj-czj" firstAttribute="top" secondItem="rWP-sf-XbQ" secondAttribute="bottom" constant="30" id="mgN-yr-o8x"/>
+                            <constraint firstItem="QRG-RC-iRv" firstAttribute="trailing" secondItem="rWP-sf-XbQ" secondAttribute="trailing" constant="20" id="p27-ZL-SBL"/>
+                            <constraint firstItem="rWP-sf-XbQ" firstAttribute="top" secondItem="y0m-96-LYP" secondAttribute="bottom" constant="45" id="rD9-rF-Fmq"/>
+                            <constraint firstItem="rWP-sf-XbQ" firstAttribute="leading" secondItem="QRG-RC-iRv" secondAttribute="leading" constant="20" id="vhv-k2-rvE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QRG-RC-iRv"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jxw-s9-wJw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g9y-u2-5Mw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2129" y="-214"/>
+        </scene>
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -23,9 +191,15 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="1wG-tS-yjp">
                                 <rect key="frame" x="41.333333333333343" y="64" width="331.33333333333326" height="698"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="OtZ-ij-o7y">
-                                        <rect key="frame" x="0.0" y="0.0" width="331.33333333333331" height="389"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO NO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="OtZ-ij-o7y">
+                                        <rect key="frame" x="0.0" y="0.0" width="331.33333333333331" height="303"/>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="drinking" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="433-r0-Zjj">
+                                        <rect key="frame" x="0.0" y="323" width="331.33333333333331" height="66"/>
+                                        <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="55"/>
+                                        <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El mejor juego para beber" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="GIB-WX-uPn">
                                         <rect key="frame" x="0.0" y="409" width="331.33333333333331" height="29"/>
                                         <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="21"/>
@@ -132,6 +306,7 @@
                     <navigationItem key="navigationItem" id="HEy-7Y-yCE"/>
                     <connections>
                         <segue destination="EM8-5X-21X" kind="show" identifier="toInstructions" id="a5c-nL-T1T"/>
+                        <segue destination="iZw-Ee-VIV" kind="show" identifier="toSettings" id="TnM-hU-MIk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -149,11 +324,17 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="VMn-4A-twr">
                                 <rect key="frame" x="20" y="64" width="374" height="698"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-wg-Foq">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="299.66666666666669"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO NO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-wg-Foq">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="224.66666666666666"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="¿CÓMO JUGAR?" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="4xa-Xe-QeQ">
-                                        <rect key="frame" x="0.0" y="319.66666666666669" width="374" height="35"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="drinking" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="4xa-Xe-QeQ">
+                                        <rect key="frame" x="0.0" y="244.66666666666669" width="374" height="54"/>
+                                        <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="45"/>
+                                        <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="¿CÓMO JUGAR?" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="fAS-bp-Uod">
+                                        <rect key="frame" x="0.0" y="318.66666666666669" width="374" height="36"/>
                                         <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="30"/>
                                         <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -233,7 +414,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Drg-f5-fGt" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2050.7246376811595" y="136.60714285714286"/>
+            <point key="canvasLocation" x="2129" y="500"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Csk-hV-YJX">
@@ -251,7 +432,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AeO-au-C47" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="407" y="137"/>
+            <point key="canvasLocation" x="477" y="137"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="eR4-Xc-q9x">
@@ -264,11 +445,17 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="5D4-1V-Xwa">
                                 <rect key="frame" x="20" y="64" width="374" height="698"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="rx1-tQ-Qao">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="299.66666666666669"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO NO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="rx1-tQ-Qao">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="224.66666666666666"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="YO NUNCA..." textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="GzP-El-Rhv">
-                                        <rect key="frame" x="0.0" y="319.66666666666669" width="374" height="35"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="drinking" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="GzP-El-Rhv">
+                                        <rect key="frame" x="0.0" y="244.66666666666669" width="374" height="54"/>
+                                        <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="45"/>
+                                        <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="YO NUNCA..." textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="8DA-G3-9pU">
+                                        <rect key="frame" x="0.0" y="318.66666666666669" width="374" height="36"/>
                                         <fontDescription key="fontDescription" name="Phosphate-Inline" family="Phosphate" pointSize="30"/>
                                         <color key="textColor" red="0.80784313730000001" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -349,14 +536,19 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7jF-UV-F4n" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2879.7101449275365" y="136.60714285714286"/>
+            <point key="canvasLocation" x="2958" y="500"/>
         </scene>
     </scenes>
     <resources>
         <image name="BACK BUTTON" width="21.333333969116211" height="37.333332061767578"/>
         <image name="BUTTON BOX" width="300" height="45"/>
-        <image name="LOGO TXT NO BG" width="310" height="425"/>
+        <image name="BlueSelector" width="50" height="50"/>
+        <image name="GreenSelector" width="50" height="50"/>
+        <image name="LOGO NO TXT NO BG" width="118.33333587646484" height="327"/>
+        <image name="PinkSelector" width="50" height="50"/>
+        <image name="RedSelector" width="50" height="50"/>
         <image name="SETTINGS BUTTON" width="36" height="35"/>
         <image name="TXT BOX" width="300" height="250"/>
+        <image name="YellowSelector" width="50" height="50"/>
     </resources>
 </document>
