@@ -191,7 +191,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="1wG-tS-yjp">
                                 <rect key="frame" x="41.333333333333343" y="64" width="331.33333333333326" height="698"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO NO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="OtZ-ij-o7y">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="YellowLogo" translatesAutoresizingMaskIntoConstraints="NO" id="OtZ-ij-o7y">
                                         <rect key="frame" x="0.0" y="0.0" width="331.33333333333331" height="303"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="drinking" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="433-r0-Zjj">
@@ -324,7 +324,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="VMn-4A-twr">
                                 <rect key="frame" x="20" y="64" width="374" height="698"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO NO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-wg-Foq">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="YellowLogo" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-wg-Foq">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="224.66666666666666"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="drinking" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="4xa-Xe-QeQ">
@@ -445,7 +445,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="5D4-1V-Xwa">
                                 <rect key="frame" x="20" y="64" width="374" height="698"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="LOGO NO TXT NO BG" translatesAutoresizingMaskIntoConstraints="NO" id="rx1-tQ-Qao">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" image="YellowLogo" translatesAutoresizingMaskIntoConstraints="NO" id="rx1-tQ-Qao">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="224.66666666666666"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="drinking" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="GzP-El-Rhv">
@@ -544,11 +544,11 @@
         <image name="BUTTON BOX" width="300" height="45"/>
         <image name="BlueSelector" width="50" height="50"/>
         <image name="GreenSelector" width="50" height="50"/>
-        <image name="LOGO NO TXT NO BG" width="118.33333587646484" height="327"/>
         <image name="PinkSelector" width="50" height="50"/>
         <image name="RedSelector" width="50" height="50"/>
         <image name="SETTINGS BUTTON" width="36" height="35"/>
         <image name="TXT BOX" width="300" height="250"/>
+        <image name="YellowLogo" width="118.33333587646484" height="327"/>
         <image name="YellowSelector" width="50" height="50"/>
     </resources>
 </document>
