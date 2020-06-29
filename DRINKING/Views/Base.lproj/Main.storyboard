@@ -529,7 +529,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="LPy-GJ-9Nf"/>
                     <connections>
-                        <outlet property="gameLabel" destination="GzP-El-Rhv" id="suq-9S-BSm"/>
+                        <outlet property="gameLabel" destination="8DA-G3-9pU" id="6GB-dD-dYW"/>
                         <outlet property="nextButton" destination="vnS-64-rI9" id="9D1-wV-GJ0"/>
                         <outlet property="sentenceLabel" destination="2wa-5w-wrK" id="oGi-uQ-qXS"/>
                     </connections>
